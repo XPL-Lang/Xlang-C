@@ -10,4 +10,4 @@ while True:
   elif request.startswith("external@"):
     com = request.replace("external@","",1)
     import os
-    os.system(com
+    os.system(com)
