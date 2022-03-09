@@ -10,7 +10,6 @@ while True:
   elif request.startswith("external@"):
     com = request.replace("external@","",1)
     print(f"> {com}")
-    import os
     os.system(com)
   else:
     print(f"Error: undefined Xscript '{request}'")
